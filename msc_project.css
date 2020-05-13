@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+/* nav var */
+
+.top-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 2;
+    display: none;
+}
+
+.top-container .top-icon img {
+    width: 100px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.top-list {
+    display: flex;
+    flex: 1;
+    font-size: 20px;
+    color: #202020;
+
+}
+
+.top-list ul a {
+    color: grey;
+    text-decoration: none;
+}
+
+.top-list ul a:hover {
+    border-bottom: 2px solid black;
+}
+
+.top-right {
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.top-right i {
+    margin-right: 20px;
+}
+
+/* slides */
+
+
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption .display-1,
+h6 {
+    color: white;
+}
+
+.carousel-caption h6 {
+    font-size: 2em;
+}
+
+.carousel-caption .display-2,
+h7 {
+    color: teal;
+}
+
+.carousel-caption h7 {
+    font-size: 2em;
+}
+
+.carousel-caption .display-3,
+h8 {
+    color: whitesmoke;
+
+}
+
+.carousel-caption h8 {
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+
+/* section1 */
+
+.section-1 {
+    width: 100%;
+    text-align: center;
+    background-color: hotpink;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.comment-1 h1,
+p {
+    width: 100%;
+}
+
+.input-group {
+    width: 80%;
+    padding-left: 200px;
+}
+
+#book-search {
+
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.comment-1 .fa-search {
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 2px;
+    color: grey;
+    cursor: pointer;
+
+}
+
+.comment-1 a {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* genre */
+
+.genre-title h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.genre-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.genre-btn {
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    border: darkgray 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px darkslateblue;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+/* card */
+.card-section {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+
+.card-outline {
+    margin-bottom: 20px;
+}
+
+
+.card-outline .card-img-top {
+    width: 100%;
+    height: 200px;
+}
+
+.card-body {
+    text-align: center;
+    width: 320px;
+
+}
+
+.card-title,
+.card-text {
+    text-align: center;
+    width: 250px;
+
+}
+
+.card-btn i {
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.card-btn {
+    cursor: grabbing;
+    color: blue;
+    align-items: center;
+    font-weight: bolder;
+}
+
+/* email */
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.email-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email-title p {
+    padding-left: 70px;
+}
+
+.email-content input {
+    width: 500px;
+    height: 40px;
+    justify-content: center;
+    font-size: large;
+    color: darkgrey;
+    padding: 12px 15px;
+}
+
+
+.email-content .email-btn {
+    width: 500px;
+    height: 40px;
+    padding: 0.5em;
+    margin-top: 20px;
+
+    background-color: #ffa;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: large;
+    font-display: 40px 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0.8;
+    font-weight: bold;
+
+}
+
+/* bookshelf */
+
+.bookshelf-content {
+    background-image: url(../asset1/sarah-dorweiler-2s9aHF4eCjI-unsplash.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.bookshelf-content h5 {
+    font-size: 30px;
+    color: #009999;
+    text-align: center;
+    padding-top: 300px;
+    padding-left: 300px;
+}
+
+.bookshelf-content p {
+    font-size: 20px;
+    color: #009999;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+/* follow */
+
+.container-follow {
+    height: 150px;
+    text-align: center;
+    background-color: #F8F8FF;
+
+}
+
+.container-follow {
+    padding-top: 30px;
+
+}
+
+
+.social a {
+    font-size: 4em;
+    padding: 20px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-google-plus-g {
+    color: #dd4b39;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+/* bottom */
+
+.bottom-container {
+    display: flex;
+    font-size: 20px;
+    background-color: #faf0e6;
+}
+
+.bottom-container div {
+    width: 100%;
+}
+
+.bottom-col-1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+/* footer */
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: #faf0e6;
+}
+
+
+.footer-container i {
+    justify-content: left;
+    font-size: small;
+    padding: 20px;
+}
+
+.footer-container a {
+    padding: 20px;
+}
+
+/* media */
+
+@media(max-width: 700px) {
+    .container-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-btn:hover {
+        opacity: 0.5;
+    }
+
+    .top-list {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: white;
+        width: 50%;
+        height: 100%;
+        border-right: #ccc 1px solid;
+        /* for border on the edge of show */
+        opacity: 0.8;
+        padding: 30px;
+        transform: translateX(-500px);
+        /* push the show bar to the left */
+        transition: transform 0.5s ease-in-out;
+        z-index: 1;
+    }
+
+    .top-list ul {
+        border-bottom: brown solld 100px;
+    }
+
+    .top-list.show {
+        transform: translateX(-20px);
+
+    }
+
+    .top-right {
+        padding-right: 50px;
+    }
+}
